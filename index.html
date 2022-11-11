@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Odin Project</title>
+        <title>Landing Page</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
     </head>
-
-    <header style="display:flex"> <!-- TODO: Display flex -->
-        <img src="./images/logo.jpg" alt="Header Logo" />
-        <h3>header link one</h3>
-        <h3>header link two</h3>
-        <h3>header link three </h3>
-    </header>
     <body>
-        <div id="top" style="display:flex; flex-direction:row">
-            <h2>This website is awesome!</h2>
-            <p>This website has some subtext.</p>
 
-            <figure> 
-                <img src = "./images/img1.jpg" alt = "This is a placeholder."/>
-                <figcaption>This is a placeholder.</figcaption>
-            </figure>
+        <header>
+            <div id="top">
+                <!-- <a href="index.html"><img src="./images/odin.svg" alt = "header logo" id="logo" /></a> -->
+                <span id="header-logo">header logo</span>
+
+                <span class="links">header link three</span>
+                <span class="links">header link two</span>
+                <span class="links">header link one</span>
+
+            </div>
+            
+            <div id="container1">
+                <div id="div1">
+                    <h1 id="header1">This website is <br/>awesome</h1>
+                    <p id="p1">This website has some subtext that goes here under the 
+                        <br/> main title. It's a smaller font and the color is lower 
+                        <br/>contrast.</p>
+                    <button class="sign-up">Sign up</button>
+                </div>
+                <img src="./images/img1.jpg" alt="picture" id="img1" />
+
+            </div>
+
+        </header>
+
+            <div id="container2">
+                <header id="blurb">Some random information.</header>
+                <br/>
+
+                <div id="img-container">
+                    <div class="img">
+                        <img src="./images/square.png" class="img" />
+                        <p>This is a placeholder.</p>
+                    </div>
+                    <div class="img">
+                        <img src="./images/square.png" class="img" />
+                        <p>This is a placeholder.</p>
+                    </div>
+                    <div class="img">
+                        <img src="./images/square.png" class="img" />
+                        <p>This is a placeholder.</p>
+                    </div>
+                    <div class="img">
+                        <img src="./images/square.png" class="img" />
+                        <p>This is a placeholder.</p>
+                    </div>
+
+                </div>
 
 
-        </div>
-        <div id = "center">
-            <figure>
-                <figcaption>This is a placeholder.</figcaption>
-            </figure>
-            <figure>
-                <figcaption>This is a placeholder.</figcaption>
-            </figure>
-            <figure>
-                <figcaption>This is a placeholder.</figcaption>
-            </figure>
-            <figure>
-                <figcaption>This is a placeholder.</figcaption>
-            </figure>
+            </div>
+
+            <div id="container3">
+                <quote>This is an inspiring quote, or a testimonial from a<br/>
+                    customer. Maybe it's just filling up space, or maybe<br/>
+                    people will actually read it. Who knows? All I know<br/>
+                    is that it looks nice. <p id="quote-cred">- Thor, God of Thunder</p></quote>
+
+            </div>
+
+            <footer>
+                <div id="banner-text">
+                    <p id="call">Call to action! It's time!</p><br/>
+                    <p id="sign">Sign up for our product by clicking that button right over there!</p>
+                    <button class="sign-up">Sign Up</button>                    
+                </div>
+            </footer>
+            <p id="copyright">Copyright Nicholas Loo 2022</p>
 
 
-        </div>
-        <div id = "quote">
-            <blockquote>Inspiring quote! </blockquote>
-            <sub>-Some Guy</sub>
-
-
-        </div>
-
+        
     </body>
-    <footer>
-        <div id="action">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <a href="https://www.google.com"><button type="button">Sign up</button></a>
-        </div>
 
-        <span>Copyright</span>
-
-    </footer>
-    
 
 
 
